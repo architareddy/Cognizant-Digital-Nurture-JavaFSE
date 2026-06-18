@@ -3,8 +3,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class SearchDemo {
-
-    // Linear Search
     public static Product linearSearch(Product[] products, int targetId) {
         for (Product product : products) {
             if (product.getProductId() == targetId) {
@@ -13,8 +11,6 @@ public class SearchDemo {
         }
         return null;
     }
-
-    // Binary Search
     public static Product binarySearch(Product[] products, int targetId) {
         int low = 0;
         int high = products.length - 1;
