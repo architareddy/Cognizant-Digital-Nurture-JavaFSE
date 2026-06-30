@@ -25,14 +25,14 @@ public class CalculatorTest {
     @Test
     public void testAddition() {
 
-        // Arrange
+        // to arrange
         int num1 = 10;
         int num2 = 20;
 
-        // Act
+        // to act
         int result = calculator.add(num1, num2);
 
-        // Assert
+        // to assert
         assertEquals(30, result);
     }
 }
