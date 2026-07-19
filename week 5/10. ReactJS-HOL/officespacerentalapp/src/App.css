@@ -1,0 +1,13 @@
+.textRed {
+  color: red;
+}
+
+.textGreen {
+  color: green;
+}
+
+/* Optional styling to match the screenshot layout */
+.container {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
